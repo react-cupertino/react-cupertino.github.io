@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { ReactComponent as GithubLogo } from "../../assets/github-logo.svg";
 import "./Navbar.css";
 
@@ -7,15 +8,15 @@ function Navbar(props) {
     <header className="navbar">
       <div className="navbar-content">
         <nav>
-          <a className="nav-link" href="/">
+          <Link className="nav-link" to="/">
             React Cupertino
-          </a>
-          <a className="nav-link" href="/installation">
+          </Link>
+          <Link className="nav-link" to="/install">
             Installation
-          </a>
-          <a className="nav-link" href="/components">
+          </Link>
+          <Link className="nav-link" to="components">
             Components
-          </a>
+          </Link>
         </nav>
         <div className="navbar-links">
           <a href="https://github.com/react-cupertino/react-cupertino">
