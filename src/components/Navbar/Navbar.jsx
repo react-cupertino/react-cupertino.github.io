@@ -19,7 +19,11 @@ function Navbar(props) {
           </Link>
         </nav>
         <div className="navbar-links">
-          <a href="https://github.com/react-cupertino/react-cupertino">
+          <a
+            href="https://github.com/react-cupertino/react-cupertino"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <GithubLogo className="navbar-icon" />
           </a>
         </div>
