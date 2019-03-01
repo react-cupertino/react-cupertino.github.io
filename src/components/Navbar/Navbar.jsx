@@ -14,7 +14,7 @@ function Navbar(props) {
           <Link className="nav-link" to="/install">
             Installation
           </Link>
-          <Link className="nav-link" to="components">
+          <Link className="nav-link" to="/components">
             Components
           </Link>
         </nav>
