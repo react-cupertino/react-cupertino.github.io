@@ -18,10 +18,18 @@
 }
 
 .nav-link {
-    color: #ffffff;
+    color: #fff;
     font-size: 1em;
     padding: 0 10px;
     text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #ef4d3c;
+}
+
+.nav-link:active {
+    color: #e8362e;
 }
 
 .navbar-links {
@@ -29,8 +37,16 @@
 }
 
 .navbar-icon {
-    fill: white;
+    fill: #fff;
     height: 100%;
+}
+
+.navbar-icon:hover {
+    fill: #ef4d3c;
+}
+
+.navbar-icon:active {
+    fill: #e8362e;
 }
 
 @media (max-width: 599px) and (min-width: 0px) {
