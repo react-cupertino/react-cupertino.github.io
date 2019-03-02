@@ -8,59 +8,8 @@ p {
   font-size: 17px;
 }
 
-code {
-  background: #efefef;
-  font-size: 16px;
-  padding: 2px 5px;
-}
-
-.codeblock {
-  background-color: #181a1f;
-  border-radius: 10px;
-  color: #fff;
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
-    "Courier New", monospace;
-  max-width: 800px;
-  padding: 10px 10px;
-  overflow-x: auto;
-}
-
-.code-line {
-  display: block;
-}
-
-.keyword {
-  color: #c586c0;
-}
-
-.string {
-  color: #ce9178;
-}
-
-.punctuation {
-  color: #fff;
-}
-
-.func {
-  color: #9cdcfe;
-}
-
-.prop {
-  color: #9cdcfe;
-}
-
-.element {
-  color: #569cd6;
-}
-
 @media (max-width: 599px) and (min-width: 0px) {
   p {
     font-size: 16px;
-  }
-  code {
-    font-size: 14px;
-  }
-  .codeblock {
-    font-size: 14px;
   }
 }
