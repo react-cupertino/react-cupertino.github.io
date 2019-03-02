@@ -35,6 +35,7 @@
     justify-content: space-evenly;
     flex-direction: column;
     height: 20vh;
+    margin-top: 2vh;
     width: 80%;
   }
   .medium-txt{
