@@ -30,6 +30,11 @@
 
 @media (max-width: 599px) and (min-width: 0px) {
   .btn-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 20vh;
     width: 80%;
   }
   .medium-txt{
