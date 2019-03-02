@@ -9,7 +9,7 @@ function Home() {
     <header className="App-body">
       <img className="App-logo" src={Logo} alt="React Cupertino logo" />
       <p className="medium-txt">React Cupertino is a UI Component library inspired by Apple's Design Philosophy.</p>
-      <div className="btn-row">
+      <div className="btn-container">
         <Link to="/install">
           <PushButton title="Installation" size="large" color="red"
             style={{ fontSize: "16px" }} />

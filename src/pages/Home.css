@@ -12,13 +12,13 @@
   margin-top: 15vh;
 }
 
-.btn-row{
+.btn-container{
   align-self: center;
   margin-top: 5vh;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 25%;
+  justify-content: space-evenly;
+  width: 35%;
 }
 
 .medium-txt{
