@@ -33,7 +33,7 @@
     }
 
     .visible{
-        visibility: visible;
+        opacity: 1;
         animation-duration: 1s;
         animation-fill-mode: both;
         -webkit-animation-duration: 0.5s;
@@ -49,7 +49,7 @@
         -webkit-animation-fill-mode: both;
         animation-name: fadeOutDown;
         -webkit-animation-name: fadeOutDown;
-        /* visibility: hidden; */
+        visibility: hidden;
     }
 
     .sidebar-link {
@@ -106,7 +106,6 @@
     @keyframes fadeOutDown {
         from {
             transform: translate3d(0,0,0);
-            opacity: 1;
         }
     
         to {
@@ -118,12 +117,11 @@
     @-webkit-keyframes fadeOutDown {
         from {
             transform: translate3d(0,0,0);
-            opacity: 0;
         }
     
         to {
             transform: translate3d(0,140px,0);
-            opacity: 1
+            opacity: 0
         }
     }
 }
