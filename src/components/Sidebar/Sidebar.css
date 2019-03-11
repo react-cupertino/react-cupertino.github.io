@@ -57,6 +57,13 @@
         bottom: 5%;
         right: 5%;
         height: 70px;
+        
         width: 70px;
+    }
+
+    .button-icon{
+        margin: 0 auto;
+        height: 30%;
+        width: 40%;
     }
 }

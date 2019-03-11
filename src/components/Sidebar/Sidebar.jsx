@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
+import HamburgerIcon from '../../assets/hamburger.png';
+import CloseIcon from '../../assets/close.png';
 import './Sidebar.css';
 
 function Sidebar(){
@@ -26,7 +28,8 @@ function Sidebar(){
         </div>
          <button className="sidebar-button"
                 onClick={() => handleSidebar()}>
-        icon</button>
+                <img className="button-icon" src={visibility === 'hidden' ? HamburgerIcon : CloseIcon} alt="sidebar icon"/>
+        </button>
          </React.Fragment>
     );
 }
