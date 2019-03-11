@@ -34,10 +34,22 @@
 
     .visible{
         visibility: visible;
+        animation-duration: 1s;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 0.5s;
+        -webkit-animation-fill-mode: both;
+        animation-name: fadeInUp;
+        -webkit-animation-name: fadeInUp;
     }
 
     .hidden{
-        visibility: hidden;
+        animation-duration: 1s;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 0.5s;
+        -webkit-animation-fill-mode: both;
+        animation-name: fadeOutDown;
+        -webkit-animation-name: fadeOutDown;
+        /* visibility: hidden; */
     }
 
     .sidebar-link {
@@ -65,5 +77,53 @@
         margin: 0 auto;
         height: 30%;
         width: 40%;
+    }
+
+    @keyframes fadeInUp {
+        from {
+            transform: translate3d(0,140px,0);
+            opacity: 0;
+        }
+    
+        to {
+            transform: translate3d(0,0,0);
+            opacity: 1
+        }
+    }
+    
+    @-webkit-keyframes fadeInUp {
+        from {
+            transform: translate3d(0,140px,0);
+            opacity: 0;
+        }
+    
+        to {
+            transform: translate3d(0,0,0);
+            opacity: 1
+        }
+    }
+
+    @keyframes fadeOutDown {
+        from {
+            transform: translate3d(0,0,0);
+            opacity: 1;
+        }
+    
+        to {
+            transform: translate3d(0,140px,0);
+            opacity: 0;
+        }
+    }
+    
+    @-webkit-keyframes fadeOutDown {
+        from {
+            transform: translate3d(0,0,0);
+            opacity: 0;
+        }
+    
+        to {
+            transform: translate3d(0,140px,0);
+            opacity: 1
+        }
     }
 }
