@@ -14,7 +14,7 @@ function Home() {
           <PushButton title="Installation" size="large" color="red"
             style={{ fontSize: "16px" }} />
         </Link>
-        <Link to="/components">
+        <Link to="/components/accordion">
           <PushButton title="Docs" size="large" color="red"
             style={{ fontSize: "16px" }} />
         </Link>
