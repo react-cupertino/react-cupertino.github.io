@@ -1,7 +1,7 @@
 import React from "react";
 import { Accordion } from "react-cupertino";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { okaidia } from "react-syntax-highlighter/dist/esm/styles/prism";
+import { xonokai } from "react-syntax-highlighter/dist/esm/styles/prism";
 import CODE_EXAMPLE from "../../code_examples/accordion.js";
 import ReactLogo from "../../assets/react-logo.png";
 import AngularLogo from "../../assets/angular-logo.png";
@@ -40,7 +40,7 @@ function AccordionDocs() {
       <Accordion items={items} />
       <SyntaxHighlighter
         language="jsx"
-        style={okaidia}
+        style={xonokai}
         customStyle={{ width: "90%" }}
       >
         {CODE_EXAMPLE}

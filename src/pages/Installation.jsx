@@ -1,6 +1,6 @@
 import React from "react";
 import {Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { okaidia } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import { xonokai } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import CODE_EXAMPLE from '../code_examples/installation.js';
 
 function Installation() {
@@ -12,7 +12,7 @@ function Installation() {
           <p>Learn how to install React Cupertino to your project.</p>
           <h2>Installation</h2>
           <p>You can install React Cupertino as an npm package:</p>
-          <SyntaxHighlighter language="jsx" style={okaidia}>{
+          <SyntaxHighlighter language="jsx" style={xonokai}>{
             `npm install react-cupertino`
           }
           </SyntaxHighlighter>
@@ -22,7 +22,7 @@ function Installation() {
             <code>PushButton</code> component and render it with title "Agree"
             and green background color.
           </p>
-          <SyntaxHighlighter language="jsx" style={okaidia}>{CODE_EXAMPLE}</SyntaxHighlighter>
+          <SyntaxHighlighter language="jsx" style={xonokai}>{CODE_EXAMPLE}</SyntaxHighlighter>
         </div>
       </article>
     </div>
