@@ -24,7 +24,7 @@ function getDocFor(componentName) {
         <p>
           Documentation for this component is not available at the moment. Sorry{" "}
           <span role="img" aria-label="Sad smiley">
-            >🙁
+            🙁
           </span>
         </p>
       );
