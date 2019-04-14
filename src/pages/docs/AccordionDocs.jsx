@@ -38,6 +38,7 @@ function AccordionDocs() {
       <p>An accordion lets users hide and show HTML content.</p>
       <h2>Example</h2>
       <Accordion items={items} />
+      <h2>Code</h2>
       <SyntaxHighlighter
         language="jsx"
         style={xonokai}
