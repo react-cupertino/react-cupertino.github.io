@@ -27,7 +27,7 @@
 @media (max-width: 599px) and (min-width: 0px) {
     .app-sidebar{
         padding-top: 20%;
-        position: absolute;
+        position: fixed;
         height: 100%;
         width: 100%;
     }
