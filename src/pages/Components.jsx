@@ -1,6 +1,7 @@
 import React from "react";
 import Sidebar from "../components/Sidebar/Sidebar";
 import AccordionDocs from "./docs/AccordionDocs";
+import CheckboxDocs from "./docs/CheckboxDocs";
 import "./Components.css";
 
 // removes "-" and capitalizes each word
@@ -15,10 +16,11 @@ function formatTitle(title) {
 }
 
 function getDocFor(componentName) {
-  console.log(componentName);
   switch (componentName) {
     case "accordion":
       return <AccordionDocs />;
+    case "checkbox":
+      return <CheckboxDocs />
     default:
       return (
         <p>
