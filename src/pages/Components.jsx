@@ -8,6 +8,7 @@ import RadioButtonDocs from './docs/RadioButtonDocs';
 import SliderDocs from './docs/SliderDocs';
 import SwitchDocs from './docs/SwitchDocs';
 import TagDocs from './docs/TagDocs';
+import TextboxDocs from './docs/TextboxDocs';
 import "./Components.css";
 
 // removes "-" and capitalizes each word
@@ -26,19 +27,21 @@ function getDocFor(componentName) {
     case 'accordion':
       return <AccordionDocs />;
     case 'alert':
-      return <AlertDocs />
+      return <AlertDocs />;
     case 'checkbox':
-      return <CheckboxDocs />
+      return <CheckboxDocs />;
     case 'pull-down-button':
-      return <PullDownButtonDocs />
+      return <PullDownButtonDocs />;
     case 'radio-button':
-      return <RadioButtonDocs />
+      return <RadioButtonDocs />;
     case 'slider':
-      return <SliderDocs />
+      return <SliderDocs />;
     case 'switch':
-      return <SwitchDocs />
+      return <SwitchDocs />;
     case 'tag':
-      return <TagDocs />
+      return <TagDocs />;
+    case 'textbox':
+      return <TextboxDocs />;
     default:
       return (
         <p>
