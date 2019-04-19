@@ -1,6 +1,7 @@
 import React from "react";
 import Sidebar from "../components/Sidebar/Sidebar";
 import AccordionDocs from "./docs/AccordionDocs";
+import AlertDocs from './docs/AlertDocs';
 import CheckboxDocs from "./docs/CheckboxDocs";
 import "./Components.css";
 
@@ -19,6 +20,8 @@ function getDocFor(componentName) {
   switch (componentName) {
     case "accordion":
       return <AccordionDocs />;
+    case "alert":
+      return <AlertDocs />
     case "checkbox":
       return <CheckboxDocs />
     default:
