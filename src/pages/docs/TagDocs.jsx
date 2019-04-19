@@ -29,6 +29,10 @@ function TagDocs() {
         />
       </div>
       <h2>Code</h2>
+      <p>
+        This code uses a new Hooks API (available in React 16.8), but you are
+        not required to use Hooks.
+      </p>
       <SyntaxHighlighter
         language="jsx"
         style={xonokai}
@@ -37,10 +41,6 @@ function TagDocs() {
         {CODE_EXAMPLE}
       </SyntaxHighlighter>
       <h2>API</h2>
-      <p>
-        This code uses a new Hooks API (available in React 16.8), but you are
-        not required to use Hooks.
-      </p>
       <table style={{ textAlign: "left", width: "95%" }}>
         <tr>
           <th>Name</th>
