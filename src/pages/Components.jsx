@@ -7,6 +7,7 @@ import PullDownButtonDocs from './docs/PullDownButtonDocs';
 import RadioButtonDocs from './docs/RadioButtonDocs';
 import SliderDocs from './docs/SliderDocs';
 import SwitchDocs from './docs/SwitchDocs';
+import TagDocs from './docs/TagDocs';
 import "./Components.css";
 
 // removes "-" and capitalizes each word
@@ -36,6 +37,8 @@ function getDocFor(componentName) {
       return <SliderDocs />
     case 'switch':
       return <SwitchDocs />
+    case 'tag':
+      return <TagDocs />
     default:
       return (
         <p>
