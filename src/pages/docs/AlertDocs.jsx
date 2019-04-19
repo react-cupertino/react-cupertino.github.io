@@ -61,7 +61,7 @@ function AlertDocs() {
         <tr>
           <td>title</td>
           <td>string</td>
-          <td>''</td>
+          <td>""</td>
           <td>The title of the alert.</td>
         </tr>
       </table>
