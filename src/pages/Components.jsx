@@ -4,6 +4,7 @@ import AccordionDocs from "./docs/AccordionDocs";
 import AlertDocs from './docs/AlertDocs';
 import CheckboxDocs from "./docs/CheckboxDocs";
 import RadioButtonDocs from './docs/RadioButtonDocs';
+import SwitchDocs from './docs/SwitchDocs';
 import "./Components.css";
 
 // removes "-" and capitalizes each word
@@ -19,14 +20,16 @@ function formatTitle(title) {
 
 function getDocFor(componentName) {
   switch (componentName) {
-    case "accordion":
+    case 'accordion':
       return <AccordionDocs />;
-    case "alert":
+    case 'alert':
       return <AlertDocs />
-    case "checkbox":
+    case 'checkbox':
       return <CheckboxDocs />
-    case "radio-button":
+    case 'radio-button':
       return <RadioButtonDocs />
+    case 'switch':
+      return <SwitchDocs />
     default:
       return (
         <p>
