@@ -3,6 +3,7 @@ import Sidebar from "../components/Sidebar/Sidebar";
 import AccordionDocs from "./docs/AccordionDocs";
 import AlertDocs from './docs/AlertDocs';
 import CheckboxDocs from "./docs/CheckboxDocs";
+import RadioButtonDocs from './docs/RadioButtonDocs';
 import "./Components.css";
 
 // removes "-" and capitalizes each word
@@ -24,6 +25,8 @@ function getDocFor(componentName) {
       return <AlertDocs />
     case "checkbox":
       return <CheckboxDocs />
+    case "radio-button":
+      return <RadioButtonDocs />
     default:
       return (
         <p>
