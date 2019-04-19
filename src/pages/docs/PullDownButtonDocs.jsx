@@ -49,7 +49,7 @@ function PullDownButtonDocs() {
           <td>onChange</td>
           <td>function</td>
           <td>null</td>
-          <td>This function is called, when the radio input was changed.</td>
+          <td>This function is called, when the input value was changed.</td>
         </tr>
         <tr>
           <td>options</td>
