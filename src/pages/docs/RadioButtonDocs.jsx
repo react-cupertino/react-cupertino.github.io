@@ -7,7 +7,7 @@ import CODE_EXAMPLE from "../../code_examples/radiobutton.js";
 function RadioButtonDocs() {
   return (
     <div className="article-content">
-      <p>A checkbox allows users to make a choice between two states.</p>
+      <p>A radio button allows users to select one option from a group of other options.</p>
       <h2>Example</h2>
       <div>
         <RadioButton id="1" title="Red" color="red" checked />
