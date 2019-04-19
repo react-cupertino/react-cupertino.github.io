@@ -4,7 +4,7 @@ import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { xonokai } from "react-syntax-highlighter/dist/esm/styles/prism";
 import CODE_EXAMPLE from "../../code_examples/alert.js";
 
-function CheckboxDocs() {
+function AlertDocs() {
   const [dialogVisibility, setDialogVisibility] = useState(false);
 
   return (
@@ -69,4 +69,4 @@ function CheckboxDocs() {
   );
 }
 
-export default CheckboxDocs;
+export default AlertDocs;
