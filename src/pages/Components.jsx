@@ -3,6 +3,7 @@ import Sidebar from "../components/Sidebar/Sidebar";
 import AccordionDocs from "./docs/AccordionDocs";
 import AlertDocs from './docs/AlertDocs';
 import CheckboxDocs from "./docs/CheckboxDocs";
+import PushButtonDocs from './docs/PushButtonDocs';
 import PullDownButtonDocs from './docs/PullDownButtonDocs';
 import RadioButtonDocs from './docs/RadioButtonDocs';
 import SliderDocs from './docs/SliderDocs';
@@ -32,6 +33,8 @@ function getDocFor(componentName) {
       return <CheckboxDocs />;
     case 'pull-down-button':
       return <PullDownButtonDocs />;
+    case 'push-button':
+      return <PushButtonDocs />;
     case 'radio-button':
       return <RadioButtonDocs />;
     case 'slider':
