@@ -44,7 +44,7 @@ function PushButtonDocs() {
             'purple', 'red', 'yellow'
           </td>
           <td>'blue'</td>
-          <td>Color of the checkbox when it is checked.</td>
+          <td>Background color of the button.</td>
         </tr>
         <tr>
           <td>onClick</td>

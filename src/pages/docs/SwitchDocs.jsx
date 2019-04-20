@@ -41,7 +41,7 @@ function SwitchDocs() {
             'purple', 'red', 'yellow'
           </td>
           <td>'green'</td>
-          <td>Color of the checkbox when it is checked.</td>
+          <td>Color of the switch when it is checked.</td>
         </tr>
         <tr>
           <td>colorUnchecked</td>
@@ -50,7 +50,7 @@ function SwitchDocs() {
             'purple', 'red', 'yellow'
           </td>
           <td>'grey'</td>
-          <td>Color of the checkbox when it is unchecked.</td>
+          <td>Color of the switch when it is unchecked.</td>
         </tr>
         <tr>
           <td>size</td>
