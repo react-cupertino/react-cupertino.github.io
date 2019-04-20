@@ -21,7 +21,7 @@ function NotificationDocs() {
       <SyntaxHighlighter
         language="jsx"
         style={xonokai}
-        customStyle={{ width: "90%" }}
+        customStyle={{ width: "90%", zIndex: "-1"  }}
       >
         {CODE_EXAMPLE}
       </SyntaxHighlighter>
