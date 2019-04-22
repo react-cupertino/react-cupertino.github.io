@@ -11,7 +11,7 @@ function AlertDocs() {
     <div className="article-content">
       <p>An alert component is a kind of dialog window, which is usually used to show some important information.</p>
       <h2>Example</h2>
-      <PushButton title="Open Dialog" click={() => setDialogVisibility(true)} />
+      <PushButton title="Open Dialog" onClick={() => setDialogVisibility(true)} />
       <Alert
         show={dialogVisibility}
         onClose={() => setDialogVisibility(false)}
