@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { PushButton, Notification } from "react-cupertino";
+import React from "react";
+import { Notification } from "react-cupertino";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { xonokai } from "react-syntax-highlighter/dist/esm/styles/prism";
 import CODE_EXAMPLE from "../../code_examples/notification.js";
@@ -21,7 +21,7 @@ function NotificationDocs() {
       <SyntaxHighlighter
         language="jsx"
         style={xonokai}
-        customStyle={{ width: "90%", zIndex: "-1"  }}
+        customStyle={{ width: "90%", zIndex: "-1" }}
       >
         {CODE_EXAMPLE}
       </SyntaxHighlighter>
